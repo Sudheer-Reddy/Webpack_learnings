@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+  <head>
+    <meta charset="UTF-8">
+    <title>Webpack demo</title>
+    <base href="/" />
+    <link href="assets/angular.png" rel="shortcut icon" type="image/png" />
+    <link href="css/app.css" rel="stylesheet" />
+  </head>
+  <body ng-controller="HomeController">
+      <h4>{{message}}</h4>
+
+      <a href="/users">Users</a>
+      <ng-view></ng-view>
+  </body>
+</html>
